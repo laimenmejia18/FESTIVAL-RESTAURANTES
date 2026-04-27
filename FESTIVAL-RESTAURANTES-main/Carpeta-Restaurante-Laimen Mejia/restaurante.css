@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1659859315/es/foto/la-gente-disfruta-del-sol-y-la-comida-sentada-en-los-bancos-en-el-festival-gastron%C3%B3mico.jpg?s=612x612&w=0&k=20&c=-TgxlAEW49sM_OwZE8KkKJK8Njrx9NhG6yBbcAX2geU=");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#hed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+#hed a {
+    color: violet;
+}
+#hed h1 {
+    color: rgba(255, 165, 61, 0.932);
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+
+}
+#menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#estilos {
+    font-size: 2rem;
+    color: rgb(253, 253, 253);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 20rem;
+    background-image: url('https://www.recetasnestlecam.com/sites/default/files/2022-06/ingredientes-comida-de-mar-parrilla.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-shadow: 3px 1px rgb(0, 0, 0);
+}
+
+#letras{
+    font-size: 3.5rem;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding-top: 5rem;
+    
+    text-shadow: 5px 2px rgb(0, 0, 0);
+}
+
+.eventos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  height: 15rem;
+  margin-top: 20px;
+  
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(194, 23, 23);
+}
+
+th td {
+  padding: 10px;
+  
+}
+thead {
+  background-color: rgba(0, 0, 0, 0.877);
+  color: aliceblue;
+}
+
+tbody {
+  background-color: rgba(0, 0, 0, 0.815);
+  color: aliceblue;
+}
+#about {
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+#about img {
+    width: 22.5rem;   
+    height: 20rem;
+    border-radius: 10px;
+}
+#about-text {
+    padding: 20px;
+    font-size: 1.25rem;
+}
+#about-text h2 {
+    font-size: 3.75rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 3px rgb(75, 75, 75);
+}
+#about-text p {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.carta {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 15rem;
+    height: 14rem;
+    padding: 20px;
+    background-color: rgba(32, 29, 29, 0.959);
+    border-radius: 10px;
+}
+#carta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(39, 39, 39, 0.815);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
